@@ -24,17 +24,29 @@
 
     <!-- Main content goes here -->
     <!-- This is the welcome on the landing page, with a login/signup button -->
-    <div class="container">
-        <div class=" px-4 py-5 my-5 text-center">
-            <img class="d-block mx-auto mb-4" src="/images/image.jpg" alt="" width="72" height="57">
-            <h1 class="display-5 fw-bold">Welcome to ElmoHikes, <span id="name-goes-here">my friend!</span></h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">Join a community of hikers looking for new places to explore.</p>
-                <h2>The view is better, together.</h2>
-                <div class="d-grid justify-content-sm-center">
-                    <!-- Make this button clickable, using onclick event listener -->
+    <div class="mx-auto max-w-5xl px-4">
+        <div class="my-10 rounded-2xl border border-slate-200 bg-white px-6 py-10 text-center shadow-sm sm:px-10">
+            <img class="mx-auto mb-4 h-14 w-14 rounded object-cover" src="/images/image.jpg" alt="" width="72"
+                height="57" />
+
+            <h1 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-5xl">
+                Welcome to ElmoHikes, <span id="name-goes-here">my friend!</span>
+            </h1>
+
+            <div class="mx-auto mt-6 max-w-2xl">
+                <p class="mb-4 text-lg text-slate-600">
+                    Join a community of hikers looking for new places to explore.
+                </p>
+
+                <h2 class="text-2xl font-semibold text-slate-800">
+                    The view is better, together.
+                </h2>
+
+                <div class="mt-6 flex justify-center">
                     <button onclick="window.location.href='login.html'" type="button"
-                        class="btn btn-info btn-lg">Login/Signup</button>
+                        class="rounded-lg bg-cyan-600 px-5 py-3 text-lg font-medium text-white hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                        Login/Signup
+                    </button>
                 </div>
             </div>
         </div>

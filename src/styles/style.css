@@ -1,1 +1,8 @@
+@import "tailwindcss";
 
+/* Optional tiny app-wide defaults */
+@layer base {
+  body {
+    @apply bg-white text-slate-900;
+  }
+}

@@ -1,12 +1,14 @@
 class SiteFooter extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-            <!-- Footer: single source of truth -->
-            <footer class="py-3 my-4 border-top text-center">
-                <p class="mb-0 text-muted">&copy; 2026 BCIT COMP1800</p>
-            </footer>
-        `;
-    }
+  connectedCallback() {
+    this.innerHTML = `
+      <!-- Footer: single source of truth -->
+      <footer class="mt-10 border-t border-slate-200">
+        <div class="mx-auto max-w-7xl px-4 py-6 text-center text-sm text-slate-500">
+          <p>&copy; 2026 BCIT COMP1800</p>
+        </div>
+      </footer>
+    `;
+  }
 }
 
 customElements.define('site-footer', SiteFooter);
